@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.btn-primary {
+  background-color: blue !important;
+  background-image: none;
+  width: 100%;
+  border-color: none;
+}
+
+.App .bg-light {
+  background-color: #ffffff !important;
+  border-bottom: 1px #e3e3e3 solid;
+}
+
+.navbar {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+nav i.fa.fa-user-circle.avatars {
+  padding-left: 37px;
+  padding-right: 37px;
+  font-size: 45px;
+}
+.phones {
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 27px;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 1) !important;
+  border: none !important;
+  font-size: 28px;
+}
+
+.navbar-toggler {
+  font-size: 28px;
+}
+.fa-rotate-45 {
+  -webkit-transform: rotate(280deg);
+  -moz-transform: rotate(280deg);
+  -ms-transform: rotate(280deg);
+  -o-transform: rotate(280deg);
+  transform: rotate(280deg);
+}
+
+.no-border {
+  border: none !important;
+}
+
+button.navbar-toggler.collapsed {
+  border: none !important;
+}
+
+.hamburglar {
+  width: 30px;
+  height: 5px;
+  background-color: #222;
+  margin: 6px 0;
+  z-index: 2;
+}
+
+a.circleButton {
+  background-color: white !important;
+  color: #222;
+  border: 1px solid #222;
+  border-radius: 50%;
+  z-index: 1;
+  height: 40px;
+  width: 40px;
+}
+
+i.fa.fa-pen {
+  color: #222;
+  font-size: 15px;
+  z-index: 999;
+}
+
+.buttonSch {
+  background-color: white !important;
+  color: #222 !important;
+  border: 1px solid #222 !important;
+  border-radius: 25px !important;
+  z-index: 1;
+}
+
+.buttonQuo {
+  background-color: #009bff !important;
+  color: #fff !important;
+  border: 1px solid #222 !important;
+  border-radius: 25px !important;
+  z-index: 1;
+}
+
+/*start*/
+#module {
+  width: 500px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#module p.collapse[aria-expanded="false"] {
+  height: 42px !important;
+  overflow: hidden;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+#module p.collapsing[aria-expanded="false"] {
+  height: 42px !important;
+}
+
+#module a.collapsed:after {
+  content: "+ Show More";
+}
+
+#module a:not(.collapsed):after {
+  content: "- Show Less";
+}
